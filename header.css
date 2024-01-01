@@ -1,6 +1,7 @@
 .header{
-    display: fixed;
+    position: fixed;
     width: 100%;
+    z-index: 200;
 }
 nav{
     background-color: black;
