@@ -1,0 +1,87 @@
+.section-1{
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+.section-1-container{ 
+    position: relative;
+}
+.section-1-text{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    padding: 150px 0px;
+}
+.section-1-title{
+    font-family: var(--font);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+.contact-button{
+    padding: 10px 40px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-button:hover{
+    background-color: white;
+    color: black;
+}
+.nav-circles{
+    position: absolute;
+    bottom: 7px;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 40;
+}
+.nav-circles button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin: auto 5px;
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#nav-circle-1{
+    background-color: white;
+}
+.nav-circles button:hover{
+    background-color: white;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+.gallery div{
+    width: 100%;
+    flex: none;
+}
+.gallery div span{
+    background-color: rgb(129, 129, 129);
+    display: block;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    transition: 0.5s;
+}
+#gallery-img-1{
+    background-image: url(/images/m1Copy.jpg);
+}
+#gallery-img-2{
+    background-image: url(/images/m2Copy.jpg);
+}
+#gallery-img-3{
+    background-image: url(/images/m3Copy.jpg);
+}

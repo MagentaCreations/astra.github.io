@@ -1,0 +1,76 @@
+.section-5{
+    background-color: rgb(238, 238, 238);
+    padding: 40px 20px;
+    margin: 60px auto 0px auto;
+}
+.section-5-title, .section-6-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight:600;
+    margin-bottom: 40px;
+        
+}
+.section-5-gallery-holder{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 40px 10px;
+}
+.card-gallery{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.39);
+}
+.card-container{
+    min-width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+.card-container-top{
+    display: flex;
+    gap: 20px;
+}
+.card-container img{
+    height: 100px;
+    border-radius: 50px;
+}
+.card-top-text{
+    padding: 20px 0px;
+}
+.section-5-name{
+    font-size: 20px;
+    font-weight:600;
+    margin: 5px auto;
+}
+.section-5-company{
+    font-size: 18px;
+    margin: 0px auto;
+    color: rgb(88, 88, 88);
+}
+.card-container-bottom{
+    padding: 0px 20px;
+}
+.card-nav{
+    position: absolute;
+    bottom: 7px;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 40;
+}
+.card-nav button{
+    height: 5px;
+    border: none;
+    margin: auto 5px;
+    background-color: gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#card-nav-1{
+    background-color: black;
+}
+.nav-circles button:hover{
+    background-color: white;
+}
+

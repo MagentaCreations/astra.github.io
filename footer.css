@@ -1,0 +1,51 @@
+.footer{
+    background-color: rgb(51,51,51);
+    padding: 50px 20px;
+    font-family: var(--font);
+    font-size: 16.8px;
+}
+.footer-holder{
+    display: grid;
+    gap: 40px;
+}
+.footer-left-title{
+    color: white;
+    font-weight: 600;
+}
+.footer-left-note, .footer-remark{
+    color: rgb(153,153,153);
+}
+.footer-md-sub{
+    color:rgb(153,153,153);
+}
+.footer-md-note{
+    color: white;
+}
+.footer-right ul{
+    list-style: none;
+    margin-left: -40px;
+
+}
+.footer-right ul li{
+    margin: 20px 0px;
+}
+.footer-right ul a{
+    transition: 0.3s;
+    color: white;
+}
+.footer-right ul a:hover{
+    color: rgb(153,153,153);
+    text-decoration: none;
+}
+.footer-remark{
+    margin: 40px auto 0px auto;
+}
+.prompt a{
+    text-decoration: underline;
+    color: white;
+    transition: 0.3s;
+}
+.prompt a:hover{
+    color: rgb(153,153,153);
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.section-4-holder{
+    display: grid;
+}
+.section-4-note{
+    font-size: 16.8px;
+    color: rgb(88, 88, 88);
+    line-height: 30px;
+}
+.section-4-left-title{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.section-4-right-title{
+    display: grid;
+    font-size: var(--titlesize);
+}

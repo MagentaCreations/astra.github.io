@@ -1,0 +1,89 @@
+nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.nav-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    font-size: var(--titlesize);
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo P{
+    margin: auto 0px;
+}
+.hamburger{
+    display: flex;
+    justify-content: end;
+}
+.hamburger button{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.hamburger button span{
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    margin: 7px;
+    transition: 0.5s;
+}
+.nav-holder #menu-holder{
+    display: none;
+}
+.nav-holder ul{
+    list-style: none;
+}
+.nav-holder ul li{
+    float: left;
+    margin: auto 10px;
+    font-size: 16.8px;
+    font-weight: 600;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.header a:hover{
+    color: rgb(153,153,153);
+}
+.search-bar{
+    display: none;
+}
+.search-bar input{
+    margin: auto 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    color: white;
+}
+
+#sub-holder{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: -220px;
+    transition: 0.5s;
+}
+#sub-menu{
+    list-style: none;
+    font-family: var(--font);
+    padding: 10px;
+    margin: 10px;
+}
+#sub-menu li{
+    margin: 20px 20px;
+    font-size: 16.8px;
+}

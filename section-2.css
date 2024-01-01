@@ -1,0 +1,41 @@
+.section-2, .section-4{
+    padding: 0px 20px;
+    margin: 60px auto;
+}
+.section-2-container-holder{
+    display: grid;
+    gap: 60px; 
+}
+.section-2-left-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-2-left-note{
+    font-size: 16.8px;
+    color: rgb(88, 88, 88);
+    line-height: 30px;
+}
+
+.section-2-left button{
+    padding: 15px 40px;
+    margin: 20px auto;
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section-2-left button:hover{
+    background-color: black;
+    color: white;
+}
+.section-2-right span{
+    display: block;
+    height: 600px;
+    background-image: url(/images/about_1.jpg);
+    background-size: cover;
+    background-color: grey;
+    box-shadow: 10px 10px 3px rgba(128, 128, 128, 0.425);
+}

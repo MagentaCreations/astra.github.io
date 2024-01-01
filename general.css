@@ -1,0 +1,144 @@
+:root{
+    --titlesize: 24px;
+    --note-sm: 14px;
+    --note-md: 16px;
+    --font: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --fontblur: 
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    font-family: var(--font);
+}
+
+/* xs */
+@media (min-width:475px){
+    .container{
+        max-width: 475px;
+    }
+}
+
+/* s */
+@media (min-width:640px){
+    .container{
+        max-width: 640px;
+    } 
+    .nav-holder{
+        grid-template-columns: 1fr 4fr;
+    }
+    .hamburger{
+        display: none;
+    }
+    #sub-holder{
+        display: none;
+    }
+    .nav-holder #menu-holder{
+        display: flex;
+        justify-content: end;
+    }
+    
+}
+
+/* md */
+@media (min-width:760px){
+    .container{
+        max-width: 760px;
+    }
+    .nav-holder ul li{
+        float: left;
+        margin: auto 20px;
+        font-size: var(--note-md);
+    }
+    .section-1 p{
+        font-size: 84px;
+    }
+    .section-1 .section-1-text{
+        padding: 80px 0px;
+    }
+    /* secton-3- medium */
+    .section-3-container-holder{
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        margin: auto 40px;
+    }
+    .section-3-container-holder .section-3-img-holder{
+        margin: 25px auto;
+    }
+    /* section-4 medium */
+    .section-4-holder{
+        gap: 40px;
+    }
+    .section-4-right{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    /* section-5-medium */
+    .section-5 .card-gallery{
+        width: 45%;
+    }
+    /* footer medium */
+    .footer .footer-holder{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 100px;
+    }
+    .footer-remark{
+        text-align: center;
+
+    }
+}
+
+/* lg */
+@media (min-width:1024px){
+    .container{
+        max-width: 1024px;
+    }
+    .nav-holder #menu-holder{
+        justify-content: center;
+    }
+    .search-bar{
+        display: block;
+        display: flex;
+        justify-content: end;
+    }
+    .nav-holder{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    /* this is section-2 medium */
+    .section-2-container-holder, .section-4-holder{
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 60px;
+    }
+    .section-6-holder, .footer-holder, .footer-remark
+    {
+        padding: 0px 60px;
+    }
+    .section-1 p{
+        padding: 0px 300px;
+    }
+
+}
+
+/* xl */
+@media (min-width:1280px){
+    .container{
+        max-width: 1280px;
+    }
+    
+}
+
+/* xxl */
+@media (min-width:1536px){
+    .container{
+        max-width: 1536px;
+    }
+}
