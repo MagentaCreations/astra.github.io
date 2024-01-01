@@ -77,11 +77,11 @@
     transition: 0.5s;
 }
 #gallery-img-1{
-    background-image: url(/images/m1Copy.jpg);
+    background-image: url(images/m1Copy.jpg);
 }
 #gallery-img-2{
-    background-image: url(/images/m2Copy.jpg);
+    background-image: url(images/m2Copy.jpg);
 }
 #gallery-img-3{
-    background-image: url(/images/m3Copy.jpg);
+    background-image: url(images/m3Copy.jpg);
 }
